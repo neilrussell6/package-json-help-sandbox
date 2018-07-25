@@ -1,0 +1,22 @@
+{
+  "name": "package-json-help",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.0.0"
+  },
+  "scripts": {
+    "help": "node commands.js",
+    "test": "mocha --opts mocha.opts",
+    "testwatch": "npm test -- --watch"
+  },
+  "author": "Neil Russell <neilrussell6@gmail.com>",
+  "license": "ISC"
+}

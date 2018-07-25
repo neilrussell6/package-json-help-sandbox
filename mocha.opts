@@ -1,0 +1,6 @@
+--require source-map-support/register
+--require babel-core/register
+--reporter spec
+--recursive
+--watch-extensions js
+src/**/*.spec.js
